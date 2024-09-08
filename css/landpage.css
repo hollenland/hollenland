@@ -1,0 +1,155 @@
+body {
+    background-color: #000;
+}
+
+/*    HEADER    */
+
+.slogan {
+    text-align:center;
+    color:white;
+    margin:0px;
+    font-size: 0.7vw; /* vw = viewport, it's cool for responsive stuff. */
+}
+
+.headerDeco {
+    width: 40%;
+    position: relative;
+    margin: auto;
+    margin-top: 5px;
+}
+.decoLeft {
+    width: 10%;
+    position: absolute;
+    top: 0px;
+    right: 100%;
+    border: 1px solid blue;
+}
+.decoRight {
+    width: 10%;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    border: 1px solid blue;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-gap: 0px;
+    margin: auto;
+    margin-top: 5px;
+    width: 40%;
+    height: auto;
+    border: 1px solid red;
+    padding: 0px;
+}
+.headermain {
+
+}
+.headermain img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+.headervent {
+
+}
+.headervent img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+.headermenu {
+    /* The following code is used if the menu below the header is looking too offset.
+    Without the code, it is aligned with the main header, ignoring the div to the right.
+    grid-column-start: 1;
+    grid-column-end: 3;*/
+}
+.headermenu img {
+    display: block;
+    margin: auto;
+    max-width: 70%;
+    max-height: 100%;
+}
+
+/*    BODY    */
+
+.devtrash {
+    display: none;
+}
+
+.centralBlowkTop {
+    position: relative;
+    width: 30%;
+    text-align: center;
+    padding-top: 30px;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid red;
+}
+
+.medalStand {
+    position: absolute;
+    margin: -1px 0 0 0;
+    top: 0px;
+    left: 100%;
+    width: 15%;
+    border: 1px solid red;
+}
+
+.alertBox {
+    display: inline-block;
+    width: 60%;
+    padding: 0px 10px 0px 10px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(180, 0, 0);
+}
+.alertBox h3 {
+    font-size: 12px;
+    margin: 8px 0px 0px 0px;
+}
+.alertBox p {
+    font-size: 14px;
+    margin: 5px auto 8px auto;
+}
+.alertBox .dancingFigure {
+    position: absolute;
+    top: 0%;
+    right: 30%;
+    width: 5%;
+    border: 1px dashed green;
+}
+.alertBox .dancingFigure img {
+    width: 100%;
+
+}
+
+.trunk {
+    /* 'trunk' is the union of the DIVs in the central, middle part of the page, therefore its trunk.*/
+    display: flex;
+    width: 60%;
+    margin: 10px auto;
+}
+
+.centralBlowk {
+    flex: 1;
+    border: 1px solid red;
+}
+.systemArt {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    border: 1px dashed greenyellow;
+}
+.systemArt iframe {
+    width: 100%;
+}
+
+.leftBlowk {
+    flex: 0.2;
+    border: 1px solid blue;
+}
+
+.rightBlowk {
+    flex: 0.2;
+    border: 1px solid blue;
+}
