@@ -97,23 +97,32 @@ body {
 }
 
 .alertBox {
+    position: relative;
     display: inline-block;
     width: 60%;
     padding: 0px 10px 0px 10px;
     border: 1px solid rgb(255, 255, 255);
-    background-color: rgb(180, 0, 0);
+    border-style: solid none solid none;
+    background-color: #424242;
 }
 .alertBox h3 {
+    color: #fff;
     font-size: 12px;
     margin: 8px 0px 0px 0px;
 }
 .alertBox p {
+    color: #fff;
     font-size: 14px;
     margin: 5px auto 8px auto;
 }
+.alertBoxLink {
+    color: #424242;
+    background-color: #fff;
+    text-decoration: none;
+}
 .alertBox .dancingFigure {
     position: absolute;
-    top: 0%;
+    bottom: 100%;
     right: 30%;
     width: 5%;
     border: 1px dashed green;
@@ -121,6 +130,18 @@ body {
 .alertBox .dancingFigure img {
     width: 100%;
 
+}
+.alertBox .borderLeft {
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    right: 99%;
+}
+.alertBox .borderRight {
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 99%;
 }
 
 .trunk {
