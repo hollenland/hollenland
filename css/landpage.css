@@ -103,7 +103,7 @@ body {
     padding: 0px 10px 0px 10px;
     border: 1px solid rgb(255, 255, 255);
     border-style: solid none solid none;
-    background-color: #424242;
+    background-color: #222222;
 }
 .alertBox h3 {
     color: #fff;
@@ -116,7 +116,7 @@ body {
     margin: 5px auto 8px auto;
 }
 .alertBoxLink {
-    color: #424242;
+    color: #222222;
     background-color: #fff;
     text-decoration: none;
 }
@@ -129,6 +129,7 @@ body {
 }
 .alertBox .dancingFigure img {
     width: 100%;
+    vertical-align: bottom;
 
 }
 .alertBox .borderLeft {
